@@ -1186,21 +1186,31 @@
       "id": 36,
       "translated": true,
       "props": [
-        "default"
+        "default",
+        "namekian"
       ],
       "align": [
+        "neutral",
         "neutral"
       ],
       "title": [
+        "dbc.sagasystem.kingpiccolo",
         "dbc.sagasystem.kingpiccolo"
       ],
       "subtitle": [
+        "dbc.sagasdb.36.title",
         "dbc.sagasdb.36.title"
       ],
       "description": [
+        "dbc.sagasdb.36.desc",
         "dbc.sagasdb.36.desc"
       ],
       "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.Tambourine;H1170;A535;Sdbc.sagasdb.36.1;Ddbc.sagasdb.36.d"
+        ],
         [
           "start",
           "dim2;NOverworld",
@@ -1212,6 +1222,11 @@
           "item!jinryuudragonblockc:ItemDragonBlock,1||tp!fix!1190||align!+10;jinryuujrmcore.missionSys.Protect;37",
           "item!jinryuudragonblockc:ItemDragonBlock,1||tp!fix!1190||align!0;jinryuujrmcore.missionSys.Myself;37",
           "item!jinryuudragonblockc:ItemDragonBlock,1||tp!fix!1290||align!-10;jinryuujrmcore.missionSys.Evil;37"
+        ],
+        [
+          "com!jrmcracialskill set 1 @p||item!jinryuudragonblockc:ItemDragonBlock,1||tp!fix!1190||align!+10;jinryuujrmcore.missionSys.Protect;37",
+          "com!jrmcracialskill set 1 @p||item!jinryuudragonblockc:ItemDragonBlock,1||tp!fix!1190||align!0;jinryuujrmcore.missionSys.Myself;37",
+          "com!jrmcracialskill set 1 @p||item!jinryuudragonblockc:ItemDragonBlock,1||tp!fix!1290||align!-10;jinryuujrmcore.missionSys.Evil;37"
         ]
       ]
     },
@@ -1869,21 +1884,35 @@
       "id": 57,
       "translated": true,
       "props": [
-        "default"
+        "default",
+        "namekian"
       ],
       "align": [
+        "neutral",
         "neutral"
       ],
       "title": [
+        "dbc.sagasystem.freeza",
         "dbc.sagasystem.freeza"
       ],
       "subtitle": [
+        "dbc.sagasystem.10.title",
         "dbc.sagasystem.10.title"
       ],
       "description": [
+        "dbc.sagasystem.10.desc",
         "dbc.sagasystem.10.desc"
       ],
       "objectives": [
+        [
+          "start",
+          "dim2;NNamek",
+          "kill;Njinryuudragonblockc.Guldo;H2250;A900;Sdbc.itemFreeSagaGin.4.line1",
+          "kill;Njinryuudragonblockc.Recoome;H7200;A1500;Sdbc.itemFreeSagaGin.1.line1;Ddbc.itemFreeSagaGin.d.1.line1",
+          "kill;Njinryuudragonblockc.Barta;H10300;A1775;Sdbc.itemFreeSagaGin.2.line1",
+          "kill;Njinryuudragonblockc.Jeice;H10300;A1750;Sdbc.itemFreeSagaGin.3.line1",
+          "kill;Njinryuudragonblockc.Ginyu;H28800;A2500;Sdbc.itemFreeSagaGin.5.line1;Ddbc.itemFreeSagaGin.d.5.line1"
+        ],
         [
           "start",
           "dim2;NNamek",
@@ -1899,6 +1928,11 @@
           "com!jrmcracialskill set 1 @p||tp!fix!10005||align!+10;jinryuujrmcore.missionSys.Protect;58",
           "com!jrmcracialskill set 1 @p||tp!fix!10005||align!0;jinryuujrmcore.missionSys.Myself;58",
           "com!jrmcracialskill set 1 @p||tp!fix!10005||align!-10;jinryuujrmcore.missionSys.Evil;58"
+        ],
+        [
+          "com!jrmcracialskill set 2 @p||tp!fix!10005||align!+10;jinryuujrmcore.missionSys.Protect;58",
+          "com!jrmcracialskill set 2 @p||tp!fix!10005||align!0;jinryuujrmcore.missionSys.Myself;58",
+          "com!jrmcracialskill set 2 @p||tp!fix!10005||align!-10;jinryuujrmcore.missionSys.Evil;58"
         ]
       ]
     },
@@ -3286,28 +3320,39 @@
       "id": 101,
       "translated": true,
       "props": [
-        "default"
+        "default",
+        "namekian"
       ],
       "align": [
+        "neutral",
         "neutral"
       ],
       "title": [
+        "dbc.sagasystem.gfreeza",
         "dbc.sagasystem.gfreeza"
       ],
       "subtitle": [
+        "dbc.sagasystem.54.title",
         "dbc.sagasystem.54.title"
       ],
       "description": [
+        "dbc.sagasystem.54.desc",
         "dbc.sagasystem.54.desc"
       ],
       "objectives": [
         [
           "skip"
+        ],
+        [
+          "next"
         ]
       ],
       "rewards": [
         [
           "nothing;jinryuujrmcore.Skip;102"
+        ],
+        [
+          "com!dbcaskill givelvl potential_unlocked 1 @p;Awaken your potential;102"
         ]
       ]
     },
@@ -3864,21 +3909,31 @@
       "id": 119,
       "translated": true,
       "props": [
-        "default"
+        "default",
+        "namekian"
       ],
       "align": [
+        "neutral",
         "neutral"
       ],
       "title": [
+        "dbc.sagasystem.dbsftrunks",
         "dbc.sagasystem.dbsftrunks"
       ],
       "subtitle": [
+        "dbc.sagasystem.72.title",
         "dbc.sagasystem.72.title"
       ],
       "description": [
+        "dbc.sagasystem.72.desc",
         "dbc.sagasystem.72.desc"
       ],
       "objectives": [
+        [
+          "start",
+          "dim2;NOverworld",
+          "kill;Njinryuudragonblockc.GokuBlackRose;H15000000;A195000;Sdbc.MainSaga.72.1;Ddbc.MainSaga.72.d"
+        ],
         [
           "start",
           "dim2;NOverworld",
@@ -3889,7 +3944,12 @@
         [
           "tp!fix!528500||align!+10;jinryuujrmcore.missionSys.Protect;120",
           "tp!fix!528500||align!0;jinryuujrmcore.missionSys.Myself;120",
-          "tp!fix!728500||align!-10;jinryuujrmcore.missionSys.Evil;120"
+          "tp!fix!528500||align!-10;jinryuujrmcore.missionSys.Evil;120"
+        ],
+        [
+          "com!dbcaskill givelvl orange 1||tp!fix!528500||align!+10;jinryuujrmcore.missionSys.Protect;120",
+          "com!dbcaskill givelvl orange 1||tp!fix!528500||align!0;jinryuujrmcore.missionSys.Myself;120",
+          "com!dbcaskill givelvl orange 1||tp!fix!528500||align!-10;jinryuujrmcore.missionSys.Evil;120"
         ]
       ]
     },
