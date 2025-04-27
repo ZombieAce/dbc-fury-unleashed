@@ -1,5 +1,5 @@
 # DBC Ryzen
-This repository holds all the configs and mission files belonging to the **DBC Ryzen** server.
+This repository holds all the configs and mission files belonging to the **DBC Fury Unleashed** server.
 
 Made by **[RyzenImpact](https://github.com/RyzenImpact)** & **[ZombieAce](https://github.com/ZombieAce)**
 
