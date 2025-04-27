@@ -1,0 +1,298 @@
+{
+  "name": "DBZ: Broly - Second Coming",
+  "desc": "Lord Slug Saga",
+  "authors": "ZombieAce",
+  "version": "1.0",
+  "mods": "DBC",
+  "settings": {
+    "repeat": "0",
+    "unlock": "",
+    "vars": ""
+  },
+  "missions": [
+    {
+      "id": 0,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Lord Slug Saga"
+      ],
+      "subtitle": [
+        "The Evil Super Namekian"
+      ],
+      "description": [
+        "A giant world ending asteroid is coming closer to Earth! In the last moment, the asteroid barely scratches the surface and explodes after passing the planet. You notice a big structure that looks like a space ship and decide to go investigate.\n\n[Recommended DBC LVL: 5000]"
+      ],
+      "objectives": [
+        [
+          "next",
+          "lvl;M5000"
+        ]
+      ],
+      "rewards": [
+        [
+          "align!+10;jinryuujrmcore.missionSys.Protect;1",
+          "align!0;jinryuujrmcore.missionSys.Myself;1",
+          "align!-10;jinryuujrmcore.missionSys.Evil;1"
+        ]
+      ]
+    },
+    {
+      "id": 1,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Lord Slug Saga"
+      ],
+      "subtitle": [
+        "The Evil Super Namekian"
+      ],
+      "description": [
+        "An army of alien soldiers storm out of the ship! They came to invade and claim Earth for themselves."
+      ],
+      "objectives": [
+        [
+          "start",
+          "killsame;Nninjinentities.slugSoldier;H50000;A3000;M10"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!lvl!5||align!+10;jinryuujrmcore.missionSys.Protect;2",
+          "tp!lvl!5||align!0;jinryuujrmcore.missionSys.Myself;2",
+          "tp!lvl!5||align!-10;jinryuujrmcore.missionSys.Evil;2"
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Lord Slug Saga"
+      ],
+      "subtitle": [
+        "The Evil Super Namekian"
+      ],
+      "description": [
+        "There's more!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "killsame;Nninjinentities.slugSoldier;H50000;A3000;M20"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!lvl!10||align!+10;jinryuujrmcore.missionSys.Protect;3",
+          "tp!lvl!10||align!0;jinryuujrmcore.missionSys.Myself;3",
+          "tp!lvl!10||align!-10;jinryuujrmcore.missionSys.Evil;3"
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Lord Slug Saga"
+      ],
+      "subtitle": [
+        "The Evil Super Namekian"
+      ],
+      "description": [
+        "A mysterious figure steps out of the ship. He looks like an old Namekian... Unfortunately while you were busy fighting his soldiers, he sent out another squad to collect the dragon balls. With all seven now in place he summons Shenron and wishes for eternal youth boosting his power tremendously! He introduces himself as Lord Slug, Supreme Ruler of the Universe. Now he sends out his elite minions to fight you!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "kill;Nninjinentities.medamatcha;H250000;A35000",
+          "kill;Nninjinentities.angila;H350000;A25000"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!lvl!15||align!+10;jinryuujrmcore.missionSys.Protect;4",
+          "tp!lvl!15||align!0;jinryuujrmcore.missionSys.Myself;4",
+          "tp!lvl!15||align!-10;jinryuujrmcore.missionSys.Evil;4"
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Lord Slug Saga"
+      ],
+      "subtitle": [
+        "The Evil Super Namekian"
+      ],
+      "description": [
+        "There's another minion left.. He seems tougher than the others."
+      ],
+      "objectives": [
+        [
+          "start",
+          "kill;Nninjinentities.wings;H600000;A70000"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!lvl!20||align!+10;jinryuujrmcore.missionSys.Protect;5",
+          "tp!lvl!20||align!0;jinryuujrmcore.missionSys.Myself;5",
+          "tp!lvl!20||align!-10;jinryuujrmcore.missionSys.Evil;5"
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Lord Slug Saga"
+      ],
+      "subtitle": [
+        "The Evil Super Namekian"
+      ],
+      "description": [
+        "The three minions are dealt with. Now you have to go up against Lord Slug himself!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "kill;Nninjinentities.slugYoung;H1500000;A100000"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!lvl!25||align!+10;jinryuujrmcore.missionSys.Protect;6",
+          "tp!lvl!25||align!0;jinryuujrmcore.missionSys.Myself;6",
+          "tp!lvl!25||align!-10;jinryuujrmcore.missionSys.Evil;6"
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Lord Slug Saga"
+      ],
+      "subtitle": [
+        "The Evil Super Namekian"
+      ],
+      "description": [
+        "He's getting bigger?!"
+      ],
+      "objectives": [
+        [
+          "start",
+          "kill;Nninjinentities.slugGiant;H3000000;A150000"
+        ]
+      ],
+      "rewards": [
+        [
+          "tp!lvl!30||align!+10;jinryuujrmcore.missionSys.Protect;7",
+          "tp!lvl!30||align!0;jinryuujrmcore.missionSys.Myself;7",
+          "tp!lvl!30||align!-10;jinryuujrmcore.missionSys.Evil;7"
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Lord Slug Saga"
+      ],
+      "subtitle": [
+        "The Evil Super Namekian"
+      ],
+      "description": [
+        "Lord Slug has been defeated and the Earth saved from invasion yet again.\n\nClaim your rewards!"
+      ],
+      "objectives": [
+        [
+          "next"
+        ]
+      ],
+      "rewards": [
+        [
+          "com!jrmcformmastery @p add current 25;+25 Mastery LVLs to Current Form;8",
+          "tp!lvl!500;Extra TP [500x DBC LVL];8"
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "translated": true,
+      "props": [
+        "default"
+      ],
+      "align": [
+        "neutral"
+      ],
+      "title": [
+        "Lord Slug Saga"
+      ],
+      "subtitle": [
+        "The Evil Super Namekian"
+      ],
+      "description": [
+        "Congratulations! You finished the Lord Slug Saga."
+      ],
+      "objectives": [
+        [
+          "next"
+        ]
+      ],
+      "rewards": [
+        [
+          "nothing;Side Mission Complete!;8"
+        ]
+      ]
+    }
+  ]
+}
