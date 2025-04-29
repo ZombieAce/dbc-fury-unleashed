@@ -1,4 +1,4 @@
-# DBC Ryzen
+# DBC Fury Unleashed
 This repository holds all the configs and mission files belonging to the **DBC Fury Unleashed** server.
 
 Made by **[RyzenImpact](https://github.com/RyzenImpact)** & **[ZombieAce](https://github.com/ZombieAce)**
